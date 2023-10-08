@@ -2,8 +2,9 @@
 Setup:
 
 Create a virtual environment:
-
+  
   python3 -m venv env
+  
   source env/bin/activate
 
 Install Requirements:
@@ -24,18 +25,22 @@ Endpoints:
 Sales Status:
 
  Get Sales:
+
     Get: 
       /sales
  Get Daily Revenue:
+
     Get:
       /revenue/daily
  Revenue Comparison:
+
     Get:  
       /revenue/comparison
 
 Inventory Management:
 
   View current inventory status and low stock alerts:
+  
     Get:
       /inventory/
 
